@@ -67,7 +67,7 @@
 <body>
 <div class="login-container">
     <h2>Login</h2>
-    <form action="loginServlet">
+    <form action="loginServlet" method="post">
         <input type="text" name="username" placeholder="Enter Username" required>
         <input type="password" name="password" placeholder="Enter Password" required>
         <input type="submit" value="Login">

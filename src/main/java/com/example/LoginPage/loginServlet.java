@@ -9,7 +9,7 @@ public class loginServlet extends HttpServlet {
      public String  password ;
      
      @Override
-    public void service(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException , IllegalArgumentException {
+    public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException , IllegalArgumentException {
         name = request.getParameter("username");
         password = request.getParameter("password");
         response.setContentType("text/html");
